@@ -1,0 +1,21 @@
+.TH KUBRICK 6
+.SH NAME
+kubrick \- KDE color cube game
+.SH SYNOPSIS
+.B kubrick
+.I [Qt-options] [KDE-options]
+.SH DESCRIPTION
+.B Kubrick
+is a game based on Rubik's Cube and using OpenGL 3-D graphics 
+libraries.
+
+Kubrick handles cubes, "bricks" and "mats" from 2x2x1 up to 6x6x6. It has 
+several built-in puzzles of graded difficulty, as well as demos of solving 
+moves and pretty patterns. The game has unlimited undo, redo, save and 
+reload capabilities.
+.so kdeopt.part
+.SH SEE ALSO
+More detailed user documentation is available from
+.BR help:/kubrick
+(either enter this URL into \fBkonqueror\fP, or run `khelpcenter
+help:/kubrick').

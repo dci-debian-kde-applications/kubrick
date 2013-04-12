@@ -1,0 +1,36 @@
+Source: kubrick
+Section: games
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Daniel Schepler <schepler@debian.org>,
+ Sune Vuorela <sune@debian.org>,
+ Fathi Boudra <fabo@debian.org>,
+ Modestas Vainius <modax@debian.org>,
+ George Kiagiadakis <gkiagiad@csd.uoc.gr>,
+ Eshat Cakar <info@eshat.de>,
+ Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+ Maximiliano Curia <maxy@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
+ cmake, debhelper (>= 9), pkg-kde-tools (>= 0.14),
+ kdelibs5-dev (>= 4:4.10),
+ libkdegames-dev (>= 4:4.10)
+Standards-Version: 3.9.4
+Homepage: http://games.kde.org/
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kubrick.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kubrick.git
+
+Package: kubrick
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
+Description: game based on Rubik's Cube 
+ Kubrick is a game based on Rubik's Cube and using OpenGL 3-D graphics 
+ libraries.
+ .
+ Kubrick handles cubes, "bricks" and "mats" from 2x2x1 up to 6x6x6. It has 
+ several built-in puzzles of graded difficulty, as well as demos of solving 
+ moves and pretty patterns. The game has unlimited undo, redo, save and 
+ reload capabilities.
+ .
+ This package is part of the KDE games module.
+
