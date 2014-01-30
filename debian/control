@@ -16,7 +16,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  libkdegames-dev (>= 4:4.11),
  libglu1-mesa-dev,
  libqt4-opengl-dev
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Homepage: http://games.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kubrick.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kubrick.git
