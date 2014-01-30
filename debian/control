@@ -3,19 +3,21 @@ Section: games
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>,
- Sune Vuorela <sune@debian.org>,
- Fathi Boudra <fabo@debian.org>,
- Modestas Vainius <modax@debian.org>,
- George Kiagiadakis <gkiagiad@csd.uoc.gr>,
- Eshat Cakar <info@eshat.de>,
- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
- Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.14),
- kdelibs5-dev (>= 4:4.11),
- libkdegames-dev (>= 4:4.11),
- libglu1-mesa-dev,
- libqt4-opengl-dev
+           Sune Vuorela <sune@debian.org>,
+           Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           George Kiagiadakis <gkiagiad@csd.uoc.gr>,
+           Eshat Cakar <info@eshat.de>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libglu1-mesa-dev,
+               libkdegames-dev (>= 4:4.11),
+               libqt4-opengl-dev,
+               pkg-kde-tools (>= 0.14)
 Standards-Version: 3.9.5
 Homepage: http://games.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kubrick.git
@@ -23,7 +25,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kubrick.git
 
 Package: kubrick
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: khelpcenter4
 Description: game based on Rubik's Cube
  Kubrick is a game based on Rubik's Cube and using OpenGL 3-D graphics
@@ -35,4 +37,3 @@ Description: game based on Rubik's Cube
  reload capabilities.
  .
  This package is part of the KDE games module.
-
