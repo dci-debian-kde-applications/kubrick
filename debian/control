@@ -26,7 +26,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kubrick.git
 Package: kubrick
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: khelpcenter4
+Recommends: khelpcenter
 Description: game based on Rubik's Cube
  Kubrick is a game based on Rubik's Cube and using OpenGL 3-D graphics
  libraries.
