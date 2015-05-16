@@ -15,7 +15,7 @@ Build-Depends: cmake,
                kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev (>= 4:4.14),
                libglu1-mesa-dev,
-               libkdegames-dev (>= 4:14.12),
+               libkdegames-dev (>= 4:15.04.1),
                libqt4-opengl-dev,
                pkg-kde-tools (>= 0.14)
 Standards-Version: 3.9.5
@@ -24,7 +24,7 @@ Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/kubrick.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kubrick.git
 
 Package: kubrick
-Architecture: arm64 ppc64el powerpc amd64 i386
+Architecture: amd64 arm64 i386 powerpc ppc64el
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: khelpcenter
 Description: game based on Rubik's Cube
