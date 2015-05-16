@@ -3,6 +3,7 @@ kubrick (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release
   * Fix kdelibs version
   * wrap-and-sort 
+  * kde4 games need 14.12 series libkdegames. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 13 May 2015 22:41:39 -0700
 
