@@ -1,9 +1,0 @@
-?package(kubrick):\
-	needs="x11"\
-	section="Games/Puzzles"\
-	hints="KDE,Rubik"\
-	title="kubrick"\
-	icon32x32="/usr/share/pixmaps/kubrick.xpm"\
-	icon16x16="/usr/share/pixmaps/kubrick-16.xpm"\
-	command="/usr/games/kubrick"
-
