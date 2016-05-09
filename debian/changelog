@@ -1,3 +1,16 @@
+kubrick (4:4.12.2-3~1.gbp5fa109) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @5fa109992efec84e9eee4511c478a34b2f5e92f8 **
+
+  [ Maximiliano Curia ]
+  * Update watch file
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 13 Apr 2016 16:57:40 +0200
+
 kubrick (4:4.12.2-2) unstable; urgency=medium
 
   * Release to unstable
