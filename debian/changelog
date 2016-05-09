@@ -1,15 +1,19 @@
-kubrick (4:4.12.2-3~1.gbp5fa109) UNRELEASED; urgency=medium
+kubrick (4:4.12.2-3~2.gbp3b7312) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @5fa109992efec84e9eee4511c478a34b2f5e92f8 **
+  ** SNAPSHOT build @3b73128ca359c916e820b3eb891c6459f3689a50 **
 
   [ Maximiliano Curia ]
   * Update watch file
+  * Remove menu file and friends
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update vcs uris to the applications one
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 13 Apr 2016 16:57:40 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 10:43:16 +0200
 
 kubrick (4:4.12.2-2) unstable; urgency=medium
 
