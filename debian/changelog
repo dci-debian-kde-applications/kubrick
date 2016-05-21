@@ -1,6 +1,4 @@
-kubrick (4:4.12.2-3~2.gbp3b7312) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @3b73128ca359c916e820b3eb891c6459f3689a50 **
+kubrick (4:4.12.2-3) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * Update watch file
@@ -13,7 +11,7 @@ kubrick (4:4.12.2-3~2.gbp3b7312) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 10:43:16 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 23:42:33 +0200
 
 kubrick (4:4.12.2-2) unstable; urgency=medium
 
