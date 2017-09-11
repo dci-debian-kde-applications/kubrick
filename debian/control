@@ -9,7 +9,7 @@ Uploaders: Daniel Schepler <schepler@debian.org>,
            George Kiagiadakis <gkiagiad@csd.uoc.gr>,
            Eshat Cakar <info@eshat.de>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
-           Maximiliano Curia <maxy@debian.org>
+           Maximiliano Curia <maxy@debian.org>,
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -28,7 +28,7 @@ Build-Depends: cmake,
                libqt5opengl5-dev,
                libqt5svg5-dev,
                pkg-kde-tools (>= 0.14),
-               qtbase5-dev
+               qtbase5-dev,
 Standards-Version: 4.1.0
 Homepage: http://games.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kubrick.git
