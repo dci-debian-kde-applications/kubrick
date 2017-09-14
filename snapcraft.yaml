@@ -1,0 +1,52 @@
+---
+name: kubrick
+version: 17.08.1
+summary: A 3-D game based on Rubik's Cube
+description: Kubrick is a game based on the Rubik's Cube™ puzzle. The cube sizes range
+    from 2x2x2 up to 6x6x6, or you can play with irregular "bricks" such as 5x3x2
+    or "mats" such as 6x4x1 or 2x2x1. The game has a selection of puzzles at several
+    levels of difficulty, as well as demos of pretty patterns and solution moves,
+    or you can make up your own puzzles.
+confinement: strict
+grade: stable
+apps:
+    kubrick:
+        command: kf5-launch kubrick
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+slots:
+    session-dbus-interface:
+        interface: dbus
+        name: org.kde.kubrick
+        bus: session
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    kubrick:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - libkf5doctools-dev
+        - libkf5kdegames-dev
+        - libpulse0
+        source: https://download.kde.org/stable/applications/17.08.1/src/kubrick-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
