@@ -1,5 +1,6 @@
-kubrick (4:17.08.1-1~1) UNRELEASED; urgency=medium
+kubrick (4:17.08.3-1~1) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (17.08.1)
   * Bump Standards-Version to 4.1.0.
   * Update upstream metadata
@@ -7,7 +8,10 @@ kubrick (4:17.08.1-1~1) UNRELEASED; urgency=medium
   * Add breaks/replaces against the kde-l10n packages
   * Update uploaders list as requested by MIA team (Closes: #879404)
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 31 Oct 2017 18:03:25 +0100
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 18 Nov 2017 11:26:34 +0100
 
 kubrick (4:17.08.1-0neon) xenial; urgency=medium
 
